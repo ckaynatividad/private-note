@@ -14,7 +14,7 @@ import {
 import { parseNote, parseNotes } from '../utils/noteParser';
 import { useUser } from './UserContext';
 
-// payload is a note object:
+// payload is a note object
 // { title: String, content: String }
 function notesReducer(notes, { type, payload }) {
   switch (type) {
